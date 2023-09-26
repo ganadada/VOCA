@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  top: 0;
+}
+
+.recommendtext {
+  color: #9bd1dd;
+}
+
+.backKey {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 204px;
+  font-size: 30px;
+}
+
+.backKey > a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainBody {
+  margin: 0px 274px;
+  display: flex;
+  margin-top: 56px;
+}
+
+.a {
+  background-color: #d9d9d9;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.infoWarp {
+  margin-left: 50px;
+  width: 850px;
+}
+
+.mainBody > img {
+  width: 465px;
+  height: 497px;
+}
+
+.even-Body > img {
+  width: 465px;
+  height: 497px;
+}
+
+.infoWarp > .address {
+  margin: 12px 0px 8px 4px;
+}
+
+.writing {
+  margin-left: 4px;
+  font-size: 20px;
+  margin-bottom: 16px;
+  height: 135px;
+}
+
+.commend {
+  border: 1px solid;
+  width: 850;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+  border: 1px solid #86b1e5;
+  border-radius: 50px;
+  color: #86b1e5;
+  margin-right: 13px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.first-line,
+.second-line {
+  display: flex;
+}
+
+.second-line {
+  margin-left: 44px;
+}
+
+.keywordWarp {
+  display: inline-block;
+}
+
+.even-Body {
+  background-color: #ccead8;
+  padding: 50px 274px;
+  display: flex;
+  margin-top: 56px;
+}
+
+.even-Body > .infoWarp {
+  margin-right: 50px;
+}
