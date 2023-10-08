@@ -22,7 +22,6 @@
 
 .backKey {
   display: flex;
-  align-items: center;
   margin-top: 200px;
   margin-left: 204px;
   font-size: 30px;
@@ -55,11 +54,7 @@ h1 {
   width: 850px;
 }
 
-.mainBody > img {
-  width: 465px;
-  height: 497px;
-}
-
+.mainBody > img,
 .even-Body > img {
   width: 465px;
   height: 497px;
@@ -100,6 +95,21 @@ h1 {
   cursor: pointer;
 }
 
+.key:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+  border: 1px solid #86b1e5;
+  background-color: #86b1e5;
+  border-radius: 50px;
+  color: #fff;
+  margin-right: 13px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
 .first-line,
 .second-line {
   display: flex;
@@ -114,13 +124,19 @@ h1 {
 }
 
 .even-Body {
-  background-color: #ccead8;
+  background-color: #ddfbe9;
   padding: 70px 300px;
   display: flex;
   margin-top: 56px;
-  text-align: end;
 }
 
 .even-Body > .infoWarp {
   margin-right: 50px;
+}
+.end {
+  text-align: end;
+}
+
+.last {
+  margin-bottom: 200px;
 }
