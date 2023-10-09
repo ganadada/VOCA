@@ -28,3 +28,8 @@
 .recommendtext {
   color: #9bd1dd;
 }
+
+.right {
+  display: flex;
+  gap: 40px;
+}
