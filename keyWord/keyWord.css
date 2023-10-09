@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "SUITE-Regular";
 }
 
 .header {
@@ -25,6 +34,7 @@
   margin-top: 200px;
   margin-left: 204px;
   font-size: 30px;
+  font-weight: normal;
 }
 
 .backKey > a {
@@ -60,7 +70,8 @@ h1 {
   height: 497px;
 }
 
-.infoWarp > .address {
+.infoWarp > .address,
+.end > .address {
   margin: 12px 0px 8px 4px;
 }
 
@@ -84,6 +95,7 @@ h1 {
 
 .key {
   display: flex;
+  height: 40px;
   align-items: center;
   justify-content: center;
   padding: 10px 32px;
@@ -125,7 +137,7 @@ h1 {
 
 .even-Body {
   background-color: #ddfbe9;
-  padding: 70px 300px;
+  padding: 100px 300px;
   display: flex;
   margin-top: 56px;
 }
