@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "SUITE-Regular";
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  top: 0;
+}
+
+.recommendtext {
+  color: #9bd1dd;
+}
+
+.right {
+  display: flex;
+  gap: 40px;
+}
+
+.container {
+  margin-top: 230px;
+}
+
+.writingContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.imgUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  padding: 120px 110px;
+  border: none;
+}
+
+.imgUpload > p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.inputWarp {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  width: 500px;
+  height: 48px;
+  padding-left: 20px;
+  padding-top: 4px;
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+textarea {
+  padding-left: 20px;
+  padding-top: 5px;
+  height: 194px;
+  font-size: 20px;
+  resize: none;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 505px;
+  margin-top: 20px;
+}
+
+.button > button {
+  border: none;
+  background-color: #86b1e5;
+  color: #fff;
+  width: 97px;
+  height: 33px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.placeP {
+  font-size: 30px;
+  margin-left: 420px;
+  margin-bottom: 76px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  color: #d9d9d9;
+  padding: 15px 50px;
+  &:hover {
+    color: #fff;
+    background-color: #b7cae2;
+  }
+}
+.key:active {
+  background-color: #86b1e5;
+}
+
+.keyWordBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 42px;
+  gap: 53px;
+}
