@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "SUITE-Regular";
 }
 
 .header {
@@ -22,10 +31,10 @@
 
 .backKey {
   display: flex;
-  align-items: center;
   margin-top: 200px;
   margin-left: 204px;
   font-size: 30px;
+  font-weight: normal;
 }
 
 .backKey > a {
@@ -34,6 +43,7 @@
 }
 
 .mainBody {
+  padding: 50px;
   margin: 0px 274px;
   display: flex;
   margin-top: 56px;
@@ -54,17 +64,14 @@ h1 {
   width: 850px;
 }
 
-.mainBody > img {
-  width: 465px;
-  height: 497px;
-}
-
+.mainBody > img,
 .even-Body > img {
   width: 465px;
   height: 497px;
 }
 
-.infoWarp > .address {
+.infoWarp > .address,
+.end > .address {
   margin: 12px 0px 8px 4px;
 }
 
@@ -88,6 +95,7 @@ h1 {
 
 .key {
   display: flex;
+  height: 40px;
   align-items: center;
   justify-content: center;
   padding: 10px 32px;
@@ -97,6 +105,21 @@ h1 {
   margin-right: 13px;
   margin-top: 16px;
   cursor: pointer;
+}
+
+.key:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+  border: 1px solid #86b1e5;
+  background-color: #86b1e5;
+  border-radius: 50px;
+  color: #fff;
+  margin-right: 13px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition-duration: 0.5s;
 }
 
 .first-line,
@@ -113,12 +136,19 @@ h1 {
 }
 
 .even-Body {
-  background-color: #ccead8;
-  padding: 50px 274px;
+  background-color: #ddfbe9;
+  padding: 100px 300px;
   display: flex;
   margin-top: 56px;
 }
 
 .even-Body > .infoWarp {
   margin-right: 50px;
+}
+.end {
+  text-align: end;
+}
+
+.last {
+  margin-bottom: 200px;
 }
