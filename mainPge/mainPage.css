@@ -80,7 +80,7 @@
   top: 410px;
   color: #ffffff;
   font-size: 27px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .resthover,
@@ -103,7 +103,6 @@
 .hovertitle {
   font-size: 30px;
   width: 205px;
-  height: 204px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +128,3 @@
   margin: 0;
   font-family: "SUITE-Regular";
 }
-
-마우스 올렸을 때 이렇게만 나와도 괜찮은것 같지 않아??
-이제 뒤에 이미지만 어떻게 하면 완성인데
-뒤에 이미지를 넣으면 호버가 밑으로 내려져
