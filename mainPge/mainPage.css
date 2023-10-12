@@ -6,6 +6,122 @@
   font-style: normal;
 }
 
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 50px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9d9d9;
+  top: 0;
+}
+
+.recommendtext {
+  color: #9bd1dd;
+}
+
+.mainback {
+  float: left;
+  margin-top: 275px;
+  width: 100%;
+  height: 425px;
+  background-color: #ededed;
+}
+.p1 {
+  margin-left: 300px;
+  color: #86b1e5;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.p2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+}
+
+.main_title {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.button {
+  margin-top: 49px;
+  margin-left: 425px;
+  margin-right: 380px;
+  display: flex;
+  gap: 122px;
+}
+
+.rest,
+.activity,
+.culture,
+.trand {
+  float: left;
+}
+
+.restword,
+.activityword,
+.cultureword,
+.trandword {
+  width: 205px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 410px;
+  color: #ffffff;
+  font-size: 27px;
+  line-height: 40px;
+}
+
+.resthover,
+.activityhover,
+.culturehover,
+.trandhover {
+  width: 205px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 403px;
+  opacity: 0;
+  border-radius: 10%;
+  color: #ffffff;
+}
+
+.hovertitle {
+  font-size: 30px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 403px;
+}
+
+.ex {
+  font-size: 15px;
+}
+
+.resthover:hover,
+.activityhover:hover,
+.culturehover:hover,
+.trandhover:hover {
+  background-color: black;
+  opacity: 0.6;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
