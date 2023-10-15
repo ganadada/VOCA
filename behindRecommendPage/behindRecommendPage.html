@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./behind.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="../behindRecommendPage/behind.css" />
   </head>
-  <body></body>
+  <header class="head">
+    <a href="../mainPge/mainPage.html"
+      ><img src="../img/로고.png" alt="로고" class="logo"
+    /></a>
+    <div class="topFem">
+      <a href="../behindRecommendPage/behindRecommendPage.html" class="topPart"
+        >숨은여행지</a
+      >
+      <a href="../comment/comment.html" class="topPart">장소 등록하기</a>
+    </div>
+  </header>
+  <body>
+    <h3 class="title">숨은 여행지 추천</h3>
+    <div class="first">
+      <div></div>
+      <div class="placename">
+        <h2>장소 이름</h2>
+        <input type="text" placeholder="장소 이름을 입력해 주세요." />
+      </div>
+      <div class="location">
+        <p>위치</p>
+        <input type="text" placeholder="위치를 입력해 주세요." />
+      </div>
+      <div class="explain">
+        <p>간단한 설명</p>
+        <textarea
+          name=""
+          id=""
+          cols="55"
+          rows="5"
+          placeholder="설명글을 작성해 주세요!"
+        ></textarea>
+      </div>
+    </div>
+
+    <a href="../mainPge/mainPage.html">
+      <button class="submit">글쓰기</button>
+    </a>
+  </body>
 </html>

@@ -1,3 +1,100 @@
+.head {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  padding: 0px 45px;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fff;
+}
+.topPart {
+  justify-content: space-between;
+  padding: 0px 5px;
+  color: #9bd1dd;
+}
+
+body {
+  position: absolute;
+  top: 100px;
+}
+.title {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color: #9bd1dd;
+  font-size: 25 px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.first {
+  margin-left: 100px;
+  border-radius: 20px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 573px;
+  height: 720px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+}
+div:first-child {
+  width: 491px;
+  height: 293px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background: #eee;
+  background: #fff;
+}
+.placename {
+  width: 491px;
+  height: 107px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #000;
+}
+.placename > h2 {
+  margin-right: 10px;
+  display: inline-block;
+}
+.location > p {
+  margin-right: 10px;
+  display: inline-block;
+}
+.submit {
+  display: inline-flex;
+  padding: 7px 16px;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: #9bd1dd;
+  color: #fff;
+  border: 0.4px;
+}
+.submit:hover {
+  animation-name: change;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+}
+@keyframes change {
+  to {
+    background: #86b1e5;
+    animation-fill-mode: forwards;
+  }
+}
+.explain {
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.first > div {
+  margin: 27px 43px 27px 43px;
+}
+textarea {
+  resize: none;
+}
+input {
+  width: 300px;
+}
 @font-face {
   font-family: "SUITE-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
