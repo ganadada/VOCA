@@ -51,7 +51,7 @@
   padding: 50px;
   display: flex;
   justify-content: center;
-  margin-top: 50px 0px;
+  align-items: center;
 }
 
 .a {
@@ -60,8 +60,7 @@
 
 h1 {
   font-size: 50px;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: normal;
 }
 
@@ -186,6 +185,7 @@ h1 {
   background-color: #ddfbe9;
   padding: 100px 0px;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 56px;
 }
@@ -228,7 +228,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding: 0px 56px;
-  bottom: 0;
 }
 
 .left {

@@ -13,13 +13,18 @@
   justify-content: space-between;
   width: 100%;
   padding: 0px 50px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom: 1px solid #d9d9d9;
   top: 0;
 }
 
 .recommendtext {
   color: #9bd1dd;
+}
+
+.right {
+  display: flex;
+  gap: 40px;
 }
 
 .mainback {
@@ -161,7 +166,7 @@
 }
 
 .emailWarp > p,
-.right > p {
+.footright > p {
   font-size: 10px;
   color: #ababab;
 }
@@ -170,7 +175,7 @@
   margin: 2px 0px;
 }
 
-.right {
+.footright {
   display: flex;
   flex-direction: column;
   align-items: center;
