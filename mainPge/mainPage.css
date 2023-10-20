@@ -60,8 +60,7 @@
 
 .button {
   margin-top: 49px;
-  margin-left: 425px;
-  margin-right: 380px;
+  justify-content: center;
   display: flex;
   gap: 122px;
 }
