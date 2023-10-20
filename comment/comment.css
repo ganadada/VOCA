@@ -148,9 +148,7 @@
   width: 20px;
   height: 20px;
   transition: all 0.2s ease;
-  &:hover {
-    transform: scale(1.2);
-  }
+  cursor: pointer;
 }
 
 .point {
@@ -160,7 +158,7 @@
 .poin {
   position: relative;
   margin-left: 2px;
-  top: 3px;
+  top: 5px;
 }
 
 .stars {
@@ -182,7 +180,7 @@
   position: fixed;
   top: 27px;
   left: 94px;
-  width: 52px;
+  width: 60px;
   height: 15px;
 }
 

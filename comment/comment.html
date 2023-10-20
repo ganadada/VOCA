@@ -13,7 +13,7 @@
         <span class="span1">댓글</span>
         <div class="flex pbox">
           <span class="gold point">★</span>
-          <span class="cll poin">총 1.0점</span>
+          <span class="cll poin">평균 1.0점</span>
         </div>
         <div class="commentBox flex">
           <div class="comment flex">
@@ -162,5 +162,33 @@
         </div>
       </div>
     </div>
+    <script>
+      const images = document.querySelectorAll(".star2");
+
+      images.forEach((img, index) => {
+        img.addEventListener("mouseover", () => {
+          const index = parseInt(img.getAttribute("data-index"));
+
+          images.forEach((otherImg) => {
+            const otherIndex = parseInt(otherImg.getAttribute("data-index"));
+            if (otherIndex <= index) {
+              otherImg.style.transform = "scale(1.1)";
+              otherImg.src = "./img/StarLightGold.svg";
+            } else {
+              otherImg.style.transform = "scale(1)";
+              otherImg.src = "./img/StarBlackLine.svg";
+            }
+          });
+        });
+      });
+      images.forEach((img) => {
+        img.addEventListener("mouseout", () => {
+          images.forEach((otherImg) => {
+            otherImg.style.transform = "scale(1)";
+            otherImg.src = "./img/StarBlackLine.svg";
+          });
+        });
+      });
+    </script>
   </body>
 </html>
