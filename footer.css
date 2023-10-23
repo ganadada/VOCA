@@ -43,7 +43,7 @@
 }
 
 .emailWarp > p,
-.right > p {
+.footright > p {
   font-size: 10px;
   color: #ababab;
 }
@@ -52,7 +52,7 @@
   margin: 2px 0px;
 }
 
-.right {
+.footright {
   display: flex;
   flex-direction: column;
   align-items: center;
