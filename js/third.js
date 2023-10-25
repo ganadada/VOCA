@@ -48,3 +48,5 @@ slides3.addEventListener("mouseenter", () => {
 slides3.addEventListener("mouseleave", () => {
   arrowWrap3.style.opacity = 0;
 });
+
+moveSlide3(0);

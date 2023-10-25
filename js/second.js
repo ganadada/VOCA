@@ -48,3 +48,5 @@ slides2.addEventListener("mouseenter", () => {
 slides2.addEventListener("mouseleave", () => {
   arrowWrap2.style.opacity = 0;
 });
+
+moveSlide2(0);

@@ -48,3 +48,5 @@ slides4.addEventListener("mouseenter", () => {
 slides4.addEventListener("mouseleave", () => {
   arrowWrap4.style.opacity = 0;
 });
+
+moveSlide4(0);
