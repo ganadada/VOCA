@@ -13,6 +13,13 @@
   font-family: "SUITE-Regular";
 }
 
+.blur {
+  background-color: rgba(119, 119, 119, 0.5);
+  border-radius: 10px;
+  padding: 0;
+  backdrop-filter: blur(5px);
+}
+
 @keyframes fadeIn {
   0% {
     transform: translateY(-60px);
@@ -28,14 +35,17 @@
   display: flex;
 }
 
+.a1 {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .bigbox {
   width: 393px;
   height: 493px;
   background-color: white;
   border-radius: 20px;
-  position: fixed;
-  top: 293px;
-  left: 763px;
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.12))
     drop-shadow(0 3px 3px rgba(0, 0, 0, 0.14))
     drop-shadow(0 1px 8px rgba(0, 0, 0, 0.12))
@@ -44,25 +54,29 @@
 }
 
 .img1 {
-  position: inherit;
+  position: fixed;
   top: 23px;
   left: 12px;
+  transition: transform 0.2s ease;
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 }
 
 .span1 {
   width: auto;
   height: auto;
-  position: inherit;
+  position: fixed;
   font-size: 25px;
   font-weight: 700;
-  top: 20px;
+  top: 19.5px;
   left: 36px;
 }
 
 .commentBox {
-  position: inherit;
-  top: 66px;
-  left: 32px;
+  flex-direction: column;
+  padding: 66px 32px;
 }
 
 .comment {
@@ -133,6 +147,8 @@
   margin-right: 2px;
   width: 20px;
   height: 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .point {
@@ -142,7 +158,7 @@
 .poin {
   position: relative;
   margin-left: 2px;
-  top: 3px;
+  top: 5px;
 }
 
 .stars {
@@ -153,7 +169,7 @@
 }
 
 .postreview {
-  position: inherit;
+  position: fixed;
   bottom: 20px;
   left: 29px;
   width: 331px;
@@ -161,10 +177,10 @@
 }
 
 .pbox {
-  position: inherit;
+  position: fixed;
   top: 27px;
   left: 94px;
-  width: 52px;
+  width: 60px;
   height: 15px;
 }
 
