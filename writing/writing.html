@@ -23,7 +23,7 @@
     <div class="container">
       <p class="placeP">장소 등록하기</p>
       <div class="keyWordBtn">
-        <div class="recommend key">숨은 여행지</div>
+        <div class="behind key">숨은 여행지</div>
         <div class="rest key">휴식</div>
         <div class="activity key">활동</div>
         <div class="culture key">문화</div>
@@ -61,4 +61,31 @@ ex)대마고는 대마고입니다
       <div class="button"><button>등록하기</button></div>
     </div>
   </body>
+  <script>
+    const behind = document.querySelector(".behind");
+    const relax = document.querySelector(".rest");
+    const active = document.querySelector(".activity");
+    const culture = document.querySelector(".culture");
+    const trand = document.querySelector(".trand");
+
+    behind.addEventListener("click", () => {
+      behind.classList.toggle("active");
+    });
+
+    relax.addEventListener("click", () => {
+      relax.classList.toggle("active");
+    });
+
+    active.addEventListener("click", () => {
+      active.classList.toggle("active");
+    });
+
+    culture.addEventListener("click", () => {
+      culture.classList.toggle("active");
+    });
+
+    trand.addEventListener("click", () => {
+      trand.classList.toggle("active");
+    });
+  </script>
 </html>
